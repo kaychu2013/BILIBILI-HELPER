@@ -45,12 +45,17 @@ public class ApiList {
     /**
      * 充电请求
      */
-    public static String autoCharge = "https://api.bilibili.com/x/ugcpay/trade/elec/pay/quick";
+    public static String autoCharge = "https://api.bilibili.com/x/ugcpay/web/v2/trade/elec/pay/quick";
 
     /**
      * 充电留言
      */
     public static String chargeComment = "https://api.bilibili.com/x/ugcpay/trade/elec/message";
+
+
+    public static String chargeQuery = "https://api.bilibili.com/x/ugcpay/web/v2/trade/elec/panel";
+
+    public static String queryUserName = "https://api.bilibili.com/x/space/acc/info";
 
     /**
      * 领取大会员福利
@@ -69,4 +74,9 @@ public class ApiList {
     public static String queryDynamicNew = "https://api.vc.bilibili.com/dynamic_svr/v1/dynamic_svr/dynamic_new";
 
     public static String videoView = "https://api.bilibili.com/x/web-interface/view";
+
+    /**
+     *
+     */
+    public static String mangaRead = "https://manga.bilibili.com/twirp/bookshelf.v1.Bookshelf/AddHistory";
 }
