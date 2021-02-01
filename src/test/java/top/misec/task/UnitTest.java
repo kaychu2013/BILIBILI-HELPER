@@ -31,8 +31,8 @@ public class UnitTest {
 
         //初始化配置
         Config.getInstance().configInit();
-        new GiveGift().run();
-        ServerPush.doServerPush();
+        new UserCheck().run();
+        new CoinAdd().run();
 
     }
 }
